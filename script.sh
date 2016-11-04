@@ -21,3 +21,7 @@ nombre=$(( $nombre + $i ))
 done
 
 echo $nombre
+
+#Version2
+
+find . -name \*.java | xargs wc -l | grep total
